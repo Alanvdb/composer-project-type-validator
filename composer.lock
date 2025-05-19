@@ -1,0 +1,96 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "81b9554dbbc67f64156b40cf44e5b670",
+    "packages": [
+        {
+            "name": "alanvdb/composer-project-type-validator-interfaces",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/composer-project-type-validator-interfaces.git",
+                "reference": "80519daf7ede13f863f55eb3fee9c452dbb2cc7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/composer-project-type-validator-interfaces/zipball/80519daf7ede13f863f55eb3fee9c452dbb2cc7f",
+                "reference": "80519daf7ede13f863f55eb3fee9c452dbb2cc7f",
+                "shasum": ""
+            },
+            "require": {
+                "alanvdb/validator-interface": "^2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "description": "Interfaces for composer project type validator.",
+            "support": {
+                "issues": "https://github.com/Alanvdb/composer-project-type-validator-interfaces/issues",
+                "source": "https://github.com/Alanvdb/composer-project-type-validator-interfaces/tree/v1.0"
+            },
+            "time": "2025-05-19T02:46:16+00:00"
+        },
+        {
+            "name": "alanvdb/validator-interface",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Alanvdb/validator-interface.git",
+                "reference": "ea96f0053c101a28d61d99dab63e3257271c2f51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Alanvdb/validator-interface/zipball/ea96f0053c101a28d61d99dab63e3257271c2f51",
+                "reference": "ea96f0053c101a28d61d99dab63e3257271c2f51",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlanVdb\\Validator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "alanvdb",
+                    "email": "alanvdb.coder@gmail.com"
+                }
+            ],
+            "description": "Simple validator interface",
+            "support": {
+                "issues": "https://github.com/Alanvdb/validator-interface/issues",
+                "source": "https://github.com/Alanvdb/validator-interface/tree/v2.1.2"
+            },
+            "time": "2025-05-19T02:21:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
